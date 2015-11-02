@@ -31,6 +31,7 @@ namespace EncryptCompare
             Console.WriteLine("");
 
             // AesCryptoServiceProvider encryption
+            // Test File Change
             byte[] aesPrvdrEncrypt = EncryptAESCryptProvider(privacyKey, pdu, pdu.Length, engineBoots, engineTime, 128);
             DisplayByteArrayData(aesPrvdrEncrypt, "EncryptAESCryptProvider");
         }
